@@ -1,4 +1,5 @@
 // Question 2: Power function
+//
 // Write a function called power which takes in a base and an exponent.
 // If the exponent is 0, return 1.
 //
