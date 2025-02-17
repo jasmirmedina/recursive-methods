@@ -10,7 +10,7 @@
 //	return num < 7;
 // });
 //
-// console.log(allAreLessThanSeven); // false
+// console.log(allAreLessThanSeven); false
 
 const allAreLessThanSeven = all([1, 2, 9], function(num) {
   return num < 7;
