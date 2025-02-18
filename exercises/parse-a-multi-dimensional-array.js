@@ -16,7 +16,7 @@ function totalIntegers(arr) {
   let shifted = arr.shift();
 
   if(Array.isArray(shifted)) {
-    total += totalIntegers(shifted);
+    total = totalIntegers(shifted);
   } else if(Number.isInteger(shifted)) {
     total++;
   }
